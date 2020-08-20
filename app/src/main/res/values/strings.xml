@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Fiftygram</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="sepia">Sepia</string>
+    <string name="toon">Toon</string>
+    <string name="sketch">Sketch</string>
+    <string name="invert">Invert</string>
+    <string name="save">Save</string>
+    <string name="photo">Photo</string>
 </resources>

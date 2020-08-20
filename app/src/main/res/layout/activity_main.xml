@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
   <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -8,27 +12,39 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/image_view" />
+        android:id="@+id/image_view"
+        android:contentDescription="@string/photo" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Choose photo"
+        android:text="@string/choose_photo"
         android:id="@+id/button_choose"
         android:onClick="choosePhoto" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sepia"
+        android:text="@string/sepia"
         android:onClick="applySepia" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Toon"
+        android:text="@string/toon"
         android:onClick="applyToon" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sketch"
+        android:text="@string/sketch"
         android:onClick="applySketch" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invert"
+        android:onClick="applyInvert" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:onClick="savePhoto" />
   </LinearLayout>
 </ScrollView>
